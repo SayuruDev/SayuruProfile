@@ -16,7 +16,7 @@ export default function DiagonalDrawer({
         <div
           className={`z-50 ${
             pathname === "/" ? "top-[0px]" : "top-[0px]"
-          } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] top-0 flex justify-center items-center rounded-br-3xl `}
+          } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#de4887] top-0 flex justify-center items-center rounded-br-3xl `}
         >
           <div
             onClick={() => setIsOpen(false)}
@@ -79,7 +79,7 @@ export default function DiagonalDrawer({
                       Home
                     </a>
                     {selecttedIndex1 === 0 ? (
-                      <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                      <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:rotate-6 group-hover:opacity-100 bg-[#de485e] rounded-xl -z-10"></div>
                     ) : (
                       ""
                     )}
@@ -158,7 +158,7 @@ export default function DiagonalDrawer({
               <div className="flex flex-row sm:flex-col  lg:flex-row">
                 <a
                   target="blank"
-                  href="https://twitter.com/Ehiedu_baba"
+                  href="https://twitter.com/"
                   className="text-gray-300 hover:text-white transition-colors duration-3000"
                 >
                   <svg
@@ -176,7 +176,7 @@ export default function DiagonalDrawer({
                 </a>
                 <a
                   target="blank"
-                  href="git"
+                  href="https://github.com/SayuruDev"
                   className="text-gray-300 hover:text-white transition-colors duration-3000"
                 >
                   <svg
@@ -212,7 +212,7 @@ export default function DiagonalDrawer({
                 </a>
                 <a
                   target="blank"
-                  href="linkedin"
+                  href="https://www.linkedin.com/in/sayuru-samarawickrama-87ba75342/"
                   className="text-gray-300 hover:text-white transition-colors duration-3000"
                 >
                   <svg
@@ -230,7 +230,7 @@ export default function DiagonalDrawer({
                 </a>
                 <a
                   target="blank"
-                  href="https://www.instagram.com/instructor_ehizeex/"
+                  href="https://www.instagram.com/"
                   className="text-gray-300 hover:text-white transition-colors duration-3000"
                 >
                   <svg

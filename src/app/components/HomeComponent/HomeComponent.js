@@ -101,7 +101,7 @@ const HomeComponent = () => {
       <div
         id="home"
         style={{
-          backgroundImage: "linear-gradient(to right,white 65%, #48AFDE 35%)",
+          backgroundImage: "linear-gradient(to right,white 68%, #48AFDE 32%)",
           minHeight: "500px",
           maxHeight: "1200px",
           height: "100%",
@@ -179,21 +179,21 @@ const HomeComponent = () => {
                       width={50}
                       src="/reactjs.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer  "
                     />
                     <Image
                       height={8}
                       width={50}
                       src="/mongodb.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
                     <Image
                       height={8}
                       width={50}
                       src="/expressjs.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
 
                     <Image
@@ -201,28 +201,28 @@ const HomeComponent = () => {
                       width={50}
                       src="/nodejs.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
                     <Image
                       height={8}
                       width={50}
                       src="/Python1.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
                     <Image
                       height={8}
                       width={50}
                       src="/nextjs.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
                     <Image
                       height={8}
                       width={50}
                       src="/mongodb.png"
                       alt=""
-                      className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer "
+                      className="h-12 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 cursor-pointer "
                     />
                   </Slider>
                 </div>
