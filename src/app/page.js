@@ -6,9 +6,6 @@ import MySlider from "./components/SliderCard/MySlider";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Testimonial from "./components/Testimonial/Testimonial";
 
-
-
-
 const hind = Hind({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -23,24 +20,24 @@ export default function Home() {
       setIsScrolled(scrollTop > 0);
     };
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <main className="min-h-screen relative">
-      <HomeComponent />   
+      <HomeComponent />
       <div
         className="mt-0 pt-5 -mb-40"
         id="portfolio"
         style={{
           backgroundImage:
-          "linear-gradient(-62deg, #EEF7FB 0 50%,  white 0% 100%)",
+            "linear-gradient(-62deg, #EEF7FB 0 50%,  white 0% 100%)",
           width: "100%",
         }}
       >
-         <div className="container m-auto">
+        <div className="container m-auto">
           <p
             className="text-[300px]  text-[#F7FBFD] md:pl-[50px] px-5 max-w-[750px] w-[100%] overflow-hidden"
             style={{ transform: "translate(0px,-20px)" }}
@@ -54,23 +51,26 @@ export default function Home() {
             <p
               className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#47626D] leading-8 mt-5 ${hind.className}`}
             >
-              Here are a few of my most recent work. As a web designer and
-              full-stack web developer, I constantly prioritise 100% client
-              satisfaction. I always enjoy working on my projects, so each one
-              is a new adventure for me. While working on each new project, I
-              attempt to learn new things. As a result, my paintings are always
-              current and one-of-a-kind.
+              I am a Full-Stack Developer and Data Science enthusiast passionate
+              about building dynamic, scalable applications. With expertise in
+              React, Node.js, MongoDB, Firebase, Python, and AWS, I create
+              user-friendly experiences and data-driven solutions. I constantly
+              seek innovation, integrating new technologies for efficiency and
+              security. My background in web development, coding instruction,
+              and data analysis allows me to approach problem-solving with
+              creativity and precision. Whether designing intuitive UI/UX or
+              developing complex algorithms, I prioritize clean code,
+              scalability, and user satisfaction. Each project is a unique
+              challenge, and I take pride in delivering solutions that blend
+              functionality with creativity.
             </p>
           </div>
         </div>
-        <div 
-        style={{ transform: "translate(0px,-230px)" }}
-        >
-          <MySlider/>
+        <div style={{ transform: "translate(0px,-230px)" }}>
+          <MySlider />
         </div>
-        </div>
-        <AboutMe/>
-      <Testimonial/>
+      </div>
+      <AboutMe />
 
       {isScrolled ? (
         <div
