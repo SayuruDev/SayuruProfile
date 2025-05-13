@@ -46,7 +46,7 @@ export default function Home() {
           </p>
           <div className="" style={{ transform: "translate(0px, -290px)" }}>
             <p className="text-[#48AFDE]  md:pl-[80px] px-5 font-extrabold text-5xl">
-              Recent Works
+              Recent Works !
             </p>
             <p
               className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#47626D] leading-8 mt-5 ${hind.className}`}
