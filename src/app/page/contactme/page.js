@@ -99,9 +99,15 @@ export default function Page() {
             </div>
             <div className="flex justify-center text-center mt-[10px] md:w-[700px] ">
               <p className="text-white font-[300] text-cener text-xl">
-                Are you looking for a responsible, professinal full-stack
-                developer and designer for your website or your web application
-                projects? Just leave me a message and tell me how I can help.
+                Are you looking for a motivated and dedicated junior full-stack
+                developer or data science/ML intern to contribute to your
+                projects? As a Computer Science undergraduate at York
+                University, I am eager to apply my skills in React, Node.js,
+                MongoDB, Python, and AI frameworks like TensorFlow and PyTorch
+                to real-world challenges. Whether it's developing scalable web
+                applications, analyzing data, or building machine learning
+                models, I am ready to learn and grow. Just leave me a message
+                and let me know how I can help!
               </p>
             </div>
           </div>
@@ -116,49 +122,20 @@ export default function Page() {
               >
                 <div className="flex items-center gap-[15px]">
                   <div>
-                    <FaLocationDot size={40} color="#48AFDE" />
-                  </div>
-
-                  <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
-                      <p>Location...</p>
-                    </div>
-                    <div className="font-semibold text-[20px] tracking-wide">
-                      <p>Visit Us At:</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-[#666666]">65th Street, Los Angeles</p>
-                </div>
-                <div>
-                  <p className="text-[#666666]">65th Street, Los Angeles</p>
-                </div>
-              </div>
-
-              <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
-              >
-                <div className="flex items-center gap-[15px]">
-                  <div>
                     <FiPhoneCall size={40} color="#48AFDE" />
                   </div>
 
                   <div className="flex flex-col">
                     <div className="text-[#48AFDE] text-[14px]">
-                      <p>24*7 Service..</p>
+                      <p>Contact Details..</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
-                      <p>Call Us On</p>
+                      <p>Call Me On</p>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#666666]">Tel: +3258723591</p>
-                </div>
-                <div>
-                  <p className="text-[#666666]">Mob: +2372084620</p>
+                  <p className="text-[#666666]">Mobile: (437) 601-3003</p>
                 </div>
               </div>
             </div>
@@ -175,7 +152,7 @@ export default function Page() {
 
                   <div className="flex flex-col">
                     <div className="text-[#48AFDE] text-[14px]">
-                      <p>Drop A Line</p>
+                      <p>Send me a mail..</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
                       <p>Maill Address</p>
@@ -183,36 +160,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#666666]">ehizextech@gmail.com</p>
-                </div>
-                <div>
-                  <p className="text-[#666666]">edubaba@gmail.com</p>
-                </div>
-              </div>
-
-              <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
-              >
-                <div className="flex items-center gap-[15px]">
-                  <div>
-                    <AiOutlineFieldTime size={40} color="#48AFDE" />
-                  </div>
-
-                  <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
-                      <p>Office Hours..</p>
-                    </div>
-                    <div className="font-semibold text-[20px] tracking-wide">
-                      <p>Opening Time</p>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-[#666666]">Mon - Fri : 9am - 6pm</p>
-                </div>
-                <div>
-                  <p className="text-[#666666]">Sunday (Closed)</p>
+                  <p className="text-[#666666]">mailtosayuru@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -230,28 +178,22 @@ export default function Page() {
         >
           <div className="absolute h-full w-full bg-gradient-to-t from-[#223740] via-[#223740] shadow-inner opacity-70"></div>
           <div className="absolute inset-0 flex flex-col gap-[20px] items-center justify-center text-white shadow-lg p-6">
-            <div className="text-4xl xl:mt-[150px] mt-0 rounded-full px-[15px] py-[15px] bg-[#48AFDE] text-white">
-              <FaHeadphones />
-            </div>
-            <div className="font-semibold text-[24px]">Chat With Live!</div>
+            <div className="text-4xl xl:mt-[150px] mt-0 rounded-full px-[15px] py-[15px] bg-[#48AFDE] text-white"></div>
+            <div className="font-semibold text-[24px]">Lets Connect!</div>
             <div>
               <p className="text-center mt-5 font-[200] text-xl">
-                {" "}
-                Are you looking for a responsible, professinal full-stack
-                developer and designer for your website or your web application
-                projects? Just leave me a message and tell me how I can help.
+                Looking for a dedicated full-stack developer or data science/ML
+                enthusiast? I specialize in building scalable applications,
+                integrating React, Node.js, MongoDB, Python, and AI frameworks
+                to create efficient, user-friendly solutions.
               </p>
             </div>
-            <div>
-              <button className="bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#223740] transition-color rounded-xl">
-                Let's chat
-              </button>
-            </div>
+            <div></div>
           </div>
         </div>
         <div className="flex flex-col gap-[20px]">
           <div className="text-center w-[100px] bg-red-500 py-[1px] tracking-wide uppercase font-300 font-sans text-[14px] text-white rounded-lg">
-            Contact Us
+            Contact Me
           </div>
           <div className="">
             <p className="text-[30px] text-[#48AFDE]">

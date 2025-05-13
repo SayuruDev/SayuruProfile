@@ -134,8 +134,8 @@ const HomeComponent = () => {
                     Projects
                   </a>
                   <a
-                    href="Sayuru.pdf"
-                    download="Sayurucv.pdf"
+                    href="sayurucv.pdf"
+                    download="sayurucv.pdf"
                     className={`ml-10 inline-block bg-[#ccbb27] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#48AFDE] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     My Resume

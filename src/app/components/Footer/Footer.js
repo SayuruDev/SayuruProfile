@@ -1,63 +1,35 @@
 import React from "react";
-import Accordian from '../Footer/Accordian'
+import Accordian from "../Footer/Accordian";
 
 export default function Footer() {
   const service = [
-    " 1-on-1 Coaching",
-    "Company Review",
-    "Accounts Review",
-    "HR Consulting",
-    "SEO Optimisation",
+    "Internships",
+    "Junior Developer Roles",
+    "Web Application Developments",
+    "Data Model Testing",
+    "Remote App Developments",
   ];
   const company = ["About", "Meet the Team", "Accounts Review"];
-  const helping = ["Contact", "FAQs", "Live Chat"];
+  const helping = [
+    "Internships",
+    "Junior Developer Roles",
+    "Web Application Developments",
+    "Data Model Testing",
+    "Remote App Developments",
+  ];
   const legal = [
-    "Accessibility",
-    "Returns Policy",
-    "Refund Policy",
-    " Hiring Statistics",
+    "Email : mailtosayuru@gmail.com",
+    "GitHub: https://github.com/SayuruDev",
+    "Mobile: (437) 601-3003",
   ];
 
   return (
     <div id="footer" className="mt-[5px]">
-      <div className="bg-white  pt-0 lg:pt-[100px]">
-        <div
-          className="max-w-[1140px] bg-blue-500 rounded-xl  px-[20px] sm:px-[64px] py-[64px] m-auto"
-          style={{ transform: "translate(0px, 70px)" }}
-        >
-          <div className="grid grid-cols-12">
-            <div className="col-span-12 lg:col-span-9">
-              <p className="text-[30px] text-white text-center lg:text-start">
-                Ready To Get Started?
-              </p>
-              <p className="text-white font-sans text-center lg:text-start">
-                This is an all-inclusive course. It was meticulously crafted to
-                educate you how to create a dependable, fast, and responsive
-                portfolio website with Gmail functionality
-              </p>
-            </div>
-            <div className="col-span-12 lg:col-span-3">
-              <div className="flex justify-center mt-5 lg:mt-0">
-                <a
-                target="blank"
-                href="https://www.udemy.com/course/the-ultimate-nextjs13-portfolio-website-responsive/?referralCode=910E0431A13760E0695A"
-                 className="font-sans  cursor-pointer px-10 py-5 bg-[#223740] hover:bg-[#223740] rounded-xl text-white font-medium text-lg">
-                  Sign Up Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="bg-white  pt-0 lg:pt-[100px]"></div>
 
       <footer className="bg-[#232323]">
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="container mx-auto p-4 md:hidden block mt-10">
-            <Accordian  title='Services' content={ service } />
-            <Accordian  title='Company' content={ company} />
-            <Accordian  title='Helpful Links' content={ helping } />
-            <Accordian  title='Legal Policy' content={ legal} />
-
             <div className="md:hidden block">
               <div className="text-teal-600 flex justify-center mt-10">
                 <svg
@@ -93,11 +65,9 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <p className="mt-4 max-w-xs text-[#7b858b] font-sans text-center">
-                You Deserve It To Be Seen!
-              </p>
+              <p className="mt-4 max-w-xs text-[#7b858b] font-sans text-center"></p>
               <p className="text-xs text-[#7b858b] font-sans text-center mt-5">
-                &copy; 2023. edubaba
+                &copy; 2025. Sayuru Samarawickrama
               </p>
             </div>
           </div>
@@ -138,40 +108,16 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <p className="mt-4 max-w-xs text-[#7b858b] font-sans ">
-                You Deserve It To Be Seen!
-              </p>
+              <p className="mt-4 max-w-xs text-[#7b858b] font-sans "></p>
               <p className="text-xs text-[#7b858b] font-sans ">
-                &copy; 2023. edubaba
+                &copy; 2025 . Sayuru Samarawickrama
               </p>
             </div>
 
             <div className="md:block hidden">
-              <p className="font-medium text-white font-sans">Services</p>
-              <ul className="mt-6 space-y-4 text-sm">
-                {service.map((item) => (
-                  <li key={item}>
-                    <a className="text-[#7b858b] font-sans hover:opacity-75 cursor-pointer">
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="md:block hidden">
-              <p className="font-medium text-white font-sans">Company Policy</p>
-              <ul className="mt-6 space-y-4 text-sm">
-                {company.map((item) => (
-                  <li key={item}>
-                    <a className="text-[#7b858b] font-sans hover:opacity-75 cursor-pointer">
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="md:block hidden">
-              <p className="font-medium text-white font-sans">Helpful Links</p>
+              <p className="font-medium text-white font-sans">
+                Excited to Connect & Explore New Opportunities
+              </p>
               <ul className="mt-6 space-y-4 text-sm">
                 {helping.map((item) => (
                   <li key={item}>
@@ -183,7 +129,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="md:block hidden">
-              <p className="font-medium text-white font-sans">Legal Policies</p>
+              <p className="font-medium text-white font-sans">Contact Me:</p>
               <ul className="mt-6 space-y-4 text-sm">
                 {legal.map((item) => (
                   <li key={item}>
@@ -319,7 +265,7 @@ export default function Footer() {
                   target="_blank"
                   href="Gmail"
                 >
-                 <svg
+                  <svg
                     stroke="currentColor"
                     fill="currentColor"
                     stroke-width="0"
@@ -327,9 +273,10 @@ export default function Footer() {
                     class="w-8 h-8 text-gray-300 transition-colors duration-300 group-hover:text-[#48AFDE]"
                     height="1em"
                     width="1em"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
-                  </svg> 
+                  </svg>
                   <h5 className="font-recoleta mt-1 lg:mt-3 xl:mt-5 text-sm sm:text-base font-sans text-gray-200 transition-colors duration-300 group-hover:text-[#48AFDE]">
                     Gmail
                   </h5>

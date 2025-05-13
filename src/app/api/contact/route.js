@@ -1,26 +1,26 @@
-import { NextResponse } from 'next/server'
- 
+import { NextResponse } from "next/server";
+
 export async function POST(request) {
-    require('dotenv').config()
-     const data=await request.json()
-    let nodemailer = require('nodemailer')
-    try{
+  require("dotenv").config();
+  const data = await request.json();
+  let nodemailer = require("nodemailer");
+  try {
     const transporter = nodemailer.createTransport({
       port: 465,
       host: "smtp.gmail.com",
-      service:"gmail",
-      
+      service: "gmail",
+
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
+        user: "mailtosayuru@gmail.com",
+        pass: "2003",
       },
-    })
-    
+    });
+
     const info = await transporter.sendMail({
-      from: `"${data.name}"`, 
-      to: process.env.EMAIL,
-      subject: `Inquiry from Website Contact Form`, 
-      text: "", 
+      from: `"${data.name}"`,
+      to: "mailtosayuru@gmail.com",
+      subject: `Inquiry from Website Contact Form`,
+      text: "",
       html: `
       <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +68,7 @@ export async function POST(request) {
 <body>
     <div class="email-container">
 
-        <p>edubaba digital</p>
+        <p>Sayuru digital</p>
         <ul>
             <li><strong>Name:</strong> ${data.name}</li>
             <li><strong>Email:</strong> ${data.email}</li>
@@ -80,18 +80,23 @@ export async function POST(request) {
 </body>
 </html>
 
-      `, 
+      `,
     });
-    if(info.messageId){
-      return NextResponse.json({ error:false, message:"Message successfully sent! Thank you for contacting Edubaba" })
-
+    if (info.messageId) {
+      return NextResponse.json({
+        error: false,
+        message: "Message successfully sent! Thank you for contacting Sayuru",
+      });
     }
-    return NextResponse.json({ error:true, message:'Something went wrong please try again.' })
-
+    return NextResponse.json({
+      error: true,
+      message: "Something went wrong please try again.",
+    });
+  } catch (e) {
+    console.log(e);
+    return NextResponse.json({
+      error: true,
+      message: "Something went wrong please try again.",
+    });
   }
-  catch(e){
-    console.log(e)
-    return NextResponse.json({ error:true, message:'Something went wrong please try again.' })
-
-  }
-  }
+}
